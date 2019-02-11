@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-buttons",
+  "name": "@pixeoweb/tailwindcss-buttons",
   "version": "0.1.0",
   "description": "Creatr simple buttons for TailwindCSS",
   "main": "index.js",
