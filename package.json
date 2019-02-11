@@ -1,10 +1,11 @@
 {
   "name": "@pixeoweb/tailwindcss-buttons",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Creatr simple buttons for TailwindCSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env NODE_ENV=development node_modules/tailwindcss/lib/cli.js build ./src/default.css -c ./tailwind.js -o ./dist/default.css",
+    "build-custom": "cross-env NODE_ENV=development node_modules/tailwindcss/lib/cli.js build ./src/custom.css -c ./tailwind.custom.js -o ./dist/custom.css"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,12 @@
     "color": "^3.1.0",
     "lodash": "^4.17.11",
     "tailwindcss": "^0.7.4"
+  },
+  "postcss": {
+    "tailwindcss": "./tailwind.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "open-color": "^1.6.3"
   }
 }
