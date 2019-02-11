@@ -1,7 +1,7 @@
 {
   "name": "@pixeoweb/tailwindcss-buttons",
   "version": "0.2.0",
-  "description": "Creatr simple buttons for TailwindCSS",
+  "description": "Create simple buttons for TailwindCSS",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=development node_modules/tailwindcss/lib/cli.js build ./src/default.css -c ./tailwind.js -o ./dist/default.css",
