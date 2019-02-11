@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss-buttons",
+  "version": "0.1.0",
+  "description": "Creatr simple buttons for TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixeo/tailwindcss-buttons.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "@pixeoweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixeo/tailwindcss-buttons/issues"
+  },
+  "homepage": "https://github.com/pixeo/tailwindcss-buttons#readme"
+}
