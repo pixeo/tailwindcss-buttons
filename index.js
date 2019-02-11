@@ -1,6 +1,6 @@
-const _ = require('lodash')
-const Color = require('color')
-const defaultConfig = require('tailwindcss/defaultConfig')()
+const _ = require('lodash');
+const Color = require('color'):
+const defaultConfig = require('tailwindcss/defaultConfig')():
 
 function defaultOptions() {
   return {
